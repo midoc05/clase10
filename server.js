@@ -11,19 +11,19 @@ res.sendFile(path.join(__dirname, '/babbage.html'))
 })
 
 server.get ('/berners-lee', (req,res) => {
-res.sendFile(path.join(__dirname,'/bernerslee.html')
+res.sendFile(path.join(__dirname,'/bernerslee.html'))
 })
 
 server.get ('/clarke', (req,res) => {
-res.send('clarke')
+res.sendFile(path.join(__dirname,'/clarke.html'))
 })
 
 server.get ('/hamilton', (req,res) => {
-res.send('hamilton')
+res.sendFile(path.join(__dirname,'/hamilton.html'))
 })
 
 server.get ('/hopper', (req,res) => {
-res.send('hopper')
+res.sendFile(path.join(__dirname,'/hopper.html')
 })
 
 server.get ('/lovelace', (req,res) => {
