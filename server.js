@@ -35,7 +35,7 @@ res.send('turing')
 })
 
 server.listen (3030, ()=>{
-console.log('server init')
+console.log('Server onmarcheee')
 })
 
 
