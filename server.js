@@ -23,15 +23,15 @@ res.sendFile(path.join(__dirname,'/hamilton.html'))
 })
 
 server.get ('/hopper', (req,res) => {
-res.sendFile(path.join(__dirname,'/hopper.html')
+res.sendFile(path.join(__dirname,'/hopper.html'))
 })
 
 server.get ('/lovelace', (req,res) => {
-res.send('lovelace')
+res.sendFile(path.join(__dirname,'/lovelace.html'))
 })
 
 server.get ('/turing', (req,res) => {
-res.send('turing')
+res.sendFile(path.join(__dirname,'/turing.html'))
 })
 
 server.listen (3030, ()=>{
